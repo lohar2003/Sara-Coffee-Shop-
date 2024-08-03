@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    transition: .5s all;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.btn{
+    background-color: brown;
+    padding: .5rem 1rem;
+    margin-top: 1rem;
+}
+.logo img{
+    width: 250px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(255, 255, 255);
+    padding-top: 1.7rem;
+}
+
+
+.nav-menu{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    top: 30%;
+    left: .7rem;
+    justify-content: space-around;
+    align-items: center;
+    width: 50px;
+    height: 18rem;
+    /* background-color: aqua; */
+}
+.nav-menu a{
+   
+    background-color: orange;
+    padding: 20px 10px;
+    color: aliceblue;
+    overflow: hidden;
+    transition: .5s all;
+    text-transform: uppercase;
+}
+.nav-menu a img{
+    width: 20px;
+    
+}
+.nav-menu a:hover{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.3rem;
+}
+.nav-menu p{
+    display: none;
+}
+.nav-menu a:hover p{
+    display: block;
+    position: relative;
+    margin-left: .7rem;
+}
+
+
+.navbar-div{
+    width: 100%;
+    height: 30rem;
+    background: url("background/bg-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0rem 5rem;
+    color: aliceblue;
+    
+}
+
+.heading{
+    font-size: 5rem;
+}
+.heading span,h2{
+    color: red;
+}
+.navbar-div p{
+    width: 500px;
+}
+
+.home-about{
+    width: 100%;
+    padding: 3.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4rem 0rem;
+
+}
+.head-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+   width: 3px ;
+   background-color: orange;
+   height: 70px;
+}
+h3{
+    color: orange;
+    margin: 1.2rem 0;
+}
+.sub-head{
+    margin: 1.4rem 0rem;
+}
+
+.subpart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subpart p{
+    font-size: 20px;
+}
+.para{
+    font-size: 10px;
+}
+
+.our_vision{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.list span{
+    font-size: 1.2rem;
+    font-weight: bold; 
+    margin-right: .7rem;
+}
+.list li{
+    list-style-type: none;
+}
+.list{
+    margin-top: 1.7rem;
+}
+
+.heading-all{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.services{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 4rem 0rem;
+}
+.services .services-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.services .s-box{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0rem;
+}
+.s-box img{
+    width: 150px;
+    height: 150px;
+    margin-right: 1rem;
+}
+.s-box h4{
+    font-size: 1.4rem;
+    margin-bottom: .3rem;
+    text-transform: capitalize;
+}
+.s-box p{
+    font-size: .7rem;
+}
+
+
+.off {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("background/bg-2.png");
+    padding: 4rem 0rem;
+}
+.off h1{
+    font-size: 4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: orange;
+}
+.join{
+    background-color: rgba(0, 0, 0, 0.486);
+    padding: .7rem 2rem;
+    margin-top: 1rem;
+    box-shadow: 1px 1px 20px white;
+}
+.menu-list img{
+    width: 70px;
+    margin-right: .7rem;
+    transition: .5s ease-in-out;
+}
+.menu-list:hover img{
+    rotate: 350deg;
+}
+
+.hotel-menu{
+    width: 100%;
+    margin: 4rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 3rem;
+    flex-wrap: wrap;
+}
+.menu-list {
+    width: 500px;
+    margin: 2rem 1rem;
+    display: flex;
+}
+
+.book-table{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url("background/bg-2.png");
+    padding: 2rem 5rem;
+    /* flex-wrap: wrap; */
+}
+.t-box p{
+    width: auto;
+}
+.t-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 1rem;
+}
+.t-box input,.book-table .t-box select{
+    width: 300px;
+    height: 40px;
+    display: grid;
+    background-color: rgba(0, 0, 0, 0.154);
+    padding-left: .7rem;
+    margin-top: .7rem;
+    color: aliceblue;
+    cursor: pointer;
+}
+.book-table form button{
+    width: 300px;
+    height: 40px;
+    display: grid;
+    background-color: rgba(0, 0, 0, 0.154);
+    padding: .7rem;
+    margin-top: .7rem;
+    color: aliceblue;
+    cursor: pointer;
+}
+.footer{
+    background: url("background/bg-3.jpg");
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    display: flex;
+    padding: 3rem 0rem;
+    margin-top: 4rem;
+    color: rgb(255, 255, 255); 
+    flex-direction: column;
+}
+.copyright-div p{
+    text-align: center;
+}
+.footer-f{
+     
+  display: flex;
+  justify-content: space-evenly;
+  align-items: top;
+  margin-bottom: 3rem;
+}
+.footer a{
+    padding: .3rem 1.3rem;
+    transition: 1s ease-in-out;
+}
+.footer a:hover{
+    color: orange;
+}
+.footer .fbox{
+    display: grid;
+    text-transform: capitalize;
+}
+
+.active{
+    color: orange;
+}
+@media (max-width:680px){
+    .subpart{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar-div p{
+        width: 300px;
+    }
+    .heading {
+        font-size: 3rem;
+    }
+    .menu-list {
+        width:auto;
+        flex-wrap: wrap;
+       
+    }
+    .book-table{
+    display: block;
+    width: 100%;
+        padding: 2rem .2rem;
+    }
+    .t-box input,.book-table .t-box select,.book-table form button{
+        width: 200px;
+        margin-left: .2rem;
+    }
+    .menu{
+        padding: 3rem .7rem;
+    }
+
+    .footer-f{
+        display: grid;
+
+    }
+    .footer{
+        margin-left: .7rem;
+    }
+}
